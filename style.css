@@ -1,0 +1,48 @@
+*{
+  margin:0;
+}
+
+html,body{
+  height:100%;
+}
+
+body{
+  display:flex;
+}
+
+.popUp{
+  height:100%;
+  width:100%;
+  background-color:rgba(193, 193, 193, 0.66);
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.popUp img{
+  height:100px;
+}
+
+.product{
+  height:200px;
+  width:200px;
+  border-radius:10px;
+  border:2px solid black;
+  box-shadow:2px 2px 2px black;
+  margin-top:10px;
+  margin-left:8px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.product img{
+  height:100px;
+}
